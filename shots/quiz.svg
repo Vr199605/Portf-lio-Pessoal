@@ -1,0 +1,26 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0E14"/>
+      <stop offset="1" stop-color="#141d29"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1b2531" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#grid)" opacity="0.55"/>
+  <circle cx="660" cy="420" r="190" fill="#00D9B5" opacity="0.07"/>
+  <text x="40" y="56" font-family="'IBM Plex Mono',monospace" font-size="15" fill="#00D9B5" letter-spacing="3">PROJETO 03</text>
+
+  <!-- tooth + check icon -->
+  <g transform="translate(345,90)">
+    <path d="M60 0C30 0 8 20 8 55c0 30 12 55 12 90 0 18 10 30 20 30 12 0 14-24 20-24 6 0 8 24 20 24 10 0 20-12 20-30 0-35 12-60 12-90C112 20 90 0 60 0Z"
+      fill="#111823" stroke="#00D9B5" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M35 75 L55 95 L95 45" fill="none" stroke="#FFB43C" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="400" y="382" font-family="'Space Grotesk',sans-serif" font-size="30" font-weight="700" fill="#E9EDF3" text-anchor="middle">Quiz de Autoavaliação Bucal</text>
+  <text x="400" y="410" font-family="'IBM Plex Mono',monospace" font-size="12.5" fill="#8B98AA" text-anchor="middle" letter-spacing="2">LÓGICA CONDICIONAL · RESULTADO PERSONALIZADO</text>
+  <rect x="0" y="494" width="800" height="6" fill="#00D9B5"/>
+</svg>
